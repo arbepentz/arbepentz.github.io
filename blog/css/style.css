@@ -67,29 +67,42 @@
     src: url(../fonts/serif/ultra-regular.ttf) format('truetype');
 }
 
-/* ------ HTML AND HEADERS ------ */
+/* ------ HTML ------ */
 
 html {
     font-family:roboto, Arial, sans-serif;
 }
 
+/* ------ H1 AND SPRINKLE PERFECT ------ */
 h1 {
     letter-spacing: .125rem;
     font-family: josefinslab, Times New Roman, serif;
     font-size: 3.75rem;
     margin: 1.125rem;
     text-align: center;
+    transform: rotate(355deg);
+    padding-top: 5rem;
+    padding-bottom: 5rem;
 }
 
 h1 > span {
-    padding-bottom: 0;
+    padding-bottom: .5rem;
     padding-top: 0;
     padding-left: .5rem;
     padding-right: .5rem;
-    color: aqua;
+    color: yellow;
     font-family: ultra, Times New Roman, serif;
+    text-transform: uppercase;
+    background-color: deepskyblue;
+    border-style: solid;
+    border-color: deepskyblue;
+    border-radius: 1rem;
+    box-shadow: .5rem .5rem #DCDCDC;
+    text-shadow: .125rem .125rem #DCDCDC;
 
 }
+
+/* ------ H2 PERFECT ------ */
 
 h2 {
     letter-spacing: .125rem;
@@ -97,46 +110,118 @@ h2 {
     font-size: 1.75rem;
 }
 
+/* ------ H3 PERFECT ------ */
+
 h3 {
     letter-spacing: .125rem;
     font-family: josefinslab, Times New Roman, serif;
     font-size: 1.5rem;
+
 }
 
-/* ------ PARAGRAPH ------ */
+
+aside > h3 {
+    border-top: solid;
+    padding-top: 1rem;
+    border-color: lavender;
+}
+
+/* ------ PARAGRAPH PERFECT ------ */
 
 p {
-    font-size: .75rem;
+    font-size: 1rem;
     letter-spacing: .03125rem;
     word-spacing: .125rem;
 }
 
-/* ------ FIGURE ------ */
+/* ------ CANDY STORE PIC PERFECT ------ */
 
-
-
-figcaption {
-    font-size: .75rem;
-    margin-bottom: 2rem;
+figure.article-image {
+    border: solid;
+    border-color: lightskyblue;
+    padding-top: .35rem;
+    padding-bottom: .125rem;
+    padding-left: .25rem;
+    padding-right: .25rem;
+    float: left;
 }
 
-/* ------ LINKS ------ */
+/* ------ NOMMY SUBSECTION PICS PERFECT ------ */
+
+
+
+.cupcake-first {
+    padding-top: .35rem;
+    padding-bottom: .125rem;
+    padding-left: .25rem;
+    float: left;
+}
+
+.cupcake-first figcaption{
+    caption-side: bottom;
+    background-color: lightgoldenrodyellow;
+    color: darkcyan;
+    text-align: center;
+    height: 4rem;
+    font-style: italic;
+    font-size: smaller;
+}
+    
+.candy-corn {
+
+    padding-top: .35rem;
+    padding-bottom: .125rem;
+    float: left;
+}
+
+.candy-corn figcaption{
+
+    caption-side: bottom;
+    background-color: lightgoldenrodyellow;
+    color: darkcyan;
+    text-align: center;
+    height: 6rem;
+    font-style: italic;
+    font-size: smaller;
+}
+    
+.cupcake-third {
+    padding-top: .35rem;
+    padding-right: .25rem;
+    padding-bottom: .125rem;
+    float: left;
+}
+
+.cupcake-third figcaption{
+    caption-side: bottom;
+    background-color: lightgoldenrodyellow;
+    color: darkcyan;
+    text-align: center;
+    height: 6rem;
+    font-style: italic;
+    font-size: smaller;
+    
+}
+
+
+/* ------ LINKS PERFECT ------ */
 a {
     outline: none;
 }
 
 a:link,
 a:visited{
-    color: darkviolet;
+    color: palevioletred;
 }
 
 a:focus,
 a:hover {
+    text-transform: uppercase;
+    color: paleturquoise;
 
-    color: deeppink;
 }
 
-/* ------ NAVIGATION ------ */
+/* ------ NAVIGATION PERFECT ------ */
 nav {
     padding-left: 3rem;
     padding-right: 3rem;
@@ -144,10 +229,12 @@ nav {
     padding-bottom: 1rem;
     margin-top: .25rem;
     margin-bottom: 1.5rem;
-    border-style: solid;
-    border-width: .0625rem;
+    border-bottom: solid;
+    border-top: solid;
+    border-width: .15rem;
     border-color: palevioletred;
     word-spacing: 3.5rem;
+
 }
 
 nav a {
@@ -156,61 +243,96 @@ nav a {
     line-height: 3;
     text-align: center;
     font-size: 1.125rem;
-
+    transition: width 2s, height 2s, transform 2s;
 }
 
 nav a:focus,
 nav a:hover {
         text-decoration: line-through;
+        transform: rotate(90deg);
 }
 
 nav a:active {}
 
-/* ------ IMAGES ------ */
 
 
-
-
-figcaption {
-    font-size: .75rem;
-    margin-bottom: 2rem;
-}
-
-
-/* ------ CLASS SELECTORS ------ */
-
-subsection.figcaption {
-  background-color: antiquewhite;
-}
-
-.subsection {
-    
-    
-}
-
-
-/* ------ BUTTON ------ */
+/* ------ PINK BUTTON PERFECT ------ */
 
 button {
   background-color: lightpink;
   border: none;
-  color: white;
+    text-align: center;
+    border-radius: 1rem;
+  color: black;
   padding: 15px 32px;
-  text-align: center;
   text-decoration: none;
-  display: inline-block;
+    font-family: ultra, Times New Roman, serif;
   font-size: 16px;
+    transition-duration: .04s;
+    box-shadow: .25rem .25rem #DCDCDC;
+    
+}
+button:hover {
+    background-color: hotpink;
+    color: white;
 }
 
-/* ------ DATE ------ */
+/* ------ DATE PERFECT ------ */
 
-/* ------ ASIDE ------ */
+time {
+    font-style: italic;
+    font-size: smaller;
+}
 
+/* ------ ASIDE DOTS PERFECT ------ */
+
+.expand {
+    font-size: .25rem;
+
+}
+
+a.expand {
+    outline: none;
+}
+
+a.expand:link,
+a.expand:visited{
+    color: white;
+}
+
+a.expand:focus,
+a.expand:hover {
+    background-color: paleturquoise;
+    color:paleturquoise;
+    padding: .25rem;
+    
+    
+}
+
+/* ------ ASIDE ON THE SIDE PERFECT ------ */
+
+article {
+    float:left;
+    width:70%
+
+}
 aside {
-      float:right;
-      display: flex;
-      flex-wrap:wrap;
-      flex-direction: column;
-      width:14rem;
-      position:fixed;
+    float: right;
+    width: 25%;
+    border-left: solid;
+    padding-left: 1rem;
+    border-color: lightskyblue;
+    
+}
+
+
+/* ------ FOOTY FOOTER PERFECT ------ */
+footer {
+    clear:both;
+    text-align: right;
+    font-size: smaller;
+}
+
+div.mail {
+    text-align: left;
 }
